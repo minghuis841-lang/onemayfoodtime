@@ -1,0 +1,58 @@
+/* p{color: #d4a7c4;} */
+
+/* .textFormat {font-size: 32px;color: #88dd88;} */
+
+/* GoogleFonts雲端字體 import */
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300&display=swap');
+
+:root,
+[data-bs-theme=light] {
+--bs-dark-rgb: 255, 152, 131;}
+
+/* 變更根元素大小 */
+html {font-size: 20px;}
+
+/* imprt那行的GoogleFonts字體外帶回來，font-family那串 */
+body {font-family: "LXGW WenKai Mono TC","微軟正黑體", monospace;}
+
+/* 標題一級的文字大小 */
+h1 {font-size: 2rem;}
+
+/* 標題二級的文字設定，選取器是標籤，影響整體 */
+h2 {font-size: 1.8rem;font-weight: 800;color: rgb(89, 122, 221);}
+
+/* 選取器是類別，影響個別，需要手動套用 */
+.h2-custom-pink {font-size: 2rem;font-weight: 800;color: rgb(235, 115, 165);}
+
+/* 段落間距 */
+
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* card樣式 */
+.card {
+     --bs-card-title-color:rgb(212, 142, 175);
+     --bs-card-border-width:1px;
+     --bs-card-border-color:rgb(228, 128, 176);
+    }
+
+/* 局部文字色彩，旅遊安全那頁的色彩 */
+.text-orange {
+    color: #cc6699;
+}
+.text-purple {color: #4f35d3;}
+.text-red {color: #ed5454;}
+.text-yellow {color: #9ba71f;}
+.text-green {color: #8dea88;}
+.text-blue {color: #6ca2e9;}
+.text-gray {color: #b475d1;}
+/* /* 自訂項目清單的符號，旅遊安全那頁的圓圈符號 */
+.listCircle {list-style-type:circle}
+
+/* 自訂編號清單的編號，旅遊安全那頁的數字 */
+.listRoman {list-style-type: upper-roman;}
+
+/* 住宿資訊hotel.html，取消邊框，以類別作為選取器 */
+.card-no-border {border: none;}
